@@ -1,0 +1,27 @@
+{
+  "name": "image-optimization",
+  "version": "1.0.0",
+  "description": "image loading optimization with IntersectionObserver",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IntersectionObserver",
+    "webpack",
+    "babel"
+  ],
+  "author": "rxi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {}
+}
