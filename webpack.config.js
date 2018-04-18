@@ -6,7 +6,7 @@ function root(__path){
 
 module.exports = {
     entry: {
-        'app.bundle': './main.js' 
+        'app.bundle': './src/main.js' 
     },
     output: {
         path: root('dist'),
