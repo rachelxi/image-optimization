@@ -6,3 +6,18 @@ img{
 .centered{
     text-align: center;
 }
+
+.image-handled{
+    animation: 5s expand 1 alternate ease-in-out;
+}
+
+@keyframes expand{
+    from {
+        -webkit-clip-path: polygon(44% 26%, 58% 38%, 58% 38%, 44% 81%, 44% 81%, 25% 49%);
+        clip-path: polygon(44% 26%, 58% 38%, 58% 38%, 44% 81%, 44% 81%, 25% 49%);
+    }
+    to {
+        -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+}

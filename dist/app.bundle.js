@@ -142,8 +142,16 @@ var LazyLoad = exports.LazyLoad = function LazyLoad(images, config) {
                 img.onload = resolve;
                 img.onerror = reject;
             }).then(function (success) {
-                image.src = imgsrc;
+                _this.applyImage(image, imgsrc);
             });
+        }
+    });
+    Object.defineProperty(this, 'applyImage', {
+        enumerable: true,
+        writable: true,
+        value: function value(image, src) {
+            image.src = src;
+            image.classList.add('image-handled');
         }
     });
 

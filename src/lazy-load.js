@@ -26,6 +26,11 @@ export class LazyLoad{
             img.src = imgsrc;
             img.onload = resolve;
             img.onerror = reject;
-        }).then((success) => { image.src = imgsrc; });
+        }).then((success) => { this.applyImage(image, imgsrc); });
+    }
+
+    applyImage = (image, src) => {
+        image.src = src;
+        image.classList.add('image-handled');
     }
 }
