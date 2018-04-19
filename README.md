@@ -7,3 +7,4 @@
 - Lazy Load Blog: [lazy loading images using intersection observer](https://deanhume.com/lazy-loading-images-using-intersection-observer/)
 - Lazy Load Git Repo: [lazy-observer-load](https://github.com/deanhume/lazy-observer-load)
 - clip-path Blog: [Shapes in clipping and masking](https://hacks.mozilla.org/2017/06/css-shapes-clipping-and-masking/)
+- live demo on: [Github Pages - Lazy Load](https://rachelxi.github.io/image-optimization/)
